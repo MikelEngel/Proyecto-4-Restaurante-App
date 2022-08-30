@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Testimonio from './componentes/Testimonios'
 import Formulario from './componentes/Formulario'
+import Navbar from './componentes/Navbar';
 import React, {useEffect} from 'react';
 import db from './firebase/firebaseConfig';
 import { collection, getDocs } from "firebase/firestore";
@@ -28,6 +29,11 @@ function App() {
   return (
     <div className='App'>
       <div className='contenedor-principal'>
+
+      <div>
+        <Navbar />
+      </div>
+
       <h1>Esto dicen nuestros comensales sobre nuestros platillos</h1>
       <Testimonio 
       imagen='joven'
