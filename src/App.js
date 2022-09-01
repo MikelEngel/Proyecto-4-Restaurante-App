@@ -7,6 +7,7 @@ import React, {useEffect} from 'react';
 import db from './firebase/firebaseConfig';
 import { collection, getDocs } from "firebase/firestore";
 import Footer from './componentes/Footer';
+import Header from './componentes/Header';
 
 
 function App() {
@@ -32,6 +33,15 @@ function App() {
 
       <div>
         <Navbar />
+      </div>
+
+
+      <div>
+        <Header 
+        texto="Te damos la bienvenida a nuesto Restaurante, en nuestro menú encontrarás platillos de toda la República Mexicana.
+        Cada platillo lleva ingredientes de primera calidad y frescura real, no dejes de probar lo que más te agrada visitanos, felices te atenderemos" 
+        platillo='platillo' />
+        
       </div>
 
       <h1>Esto dicen nuestros comensales sobre nuestros platillos</h1>
