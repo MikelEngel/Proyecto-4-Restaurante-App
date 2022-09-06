@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Proyecto-4-Restaurante-App/static/css/main.9bacdc48.css",
+    "main.js": "/Proyecto-4-Restaurante-App/static/js/main.6a95e3d1.js",
+    "static/media/testimonio-senor.png": "/Proyecto-4-Restaurante-App/static/media/testimonio-senor.3e4b845db3b2bb54ad7b.png",
+    "static/media/testimonio-mujer.png": "/Proyecto-4-Restaurante-App/static/media/testimonio-mujer.a9d0762740dc36aab0bc.png",
+    "static/media/restaurante-platillo.png": "/Proyecto-4-Restaurante-App/static/media/restaurante-platillo.9763f6436bdcd8250a85.png",
+    "static/media/testimonio-joven.png": "/Proyecto-4-Restaurante-App/static/media/testimonio-joven.05a47d90a360bb1fd281.png",
+    "static/media/logo.svg": "/Proyecto-4-Restaurante-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Proyecto-4-Restaurante-App/index.html",
+    "main.9bacdc48.css.map": "/Proyecto-4-Restaurante-App/static/css/main.9bacdc48.css.map",
+    "main.6a95e3d1.js.map": "/Proyecto-4-Restaurante-App/static/js/main.6a95e3d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bacdc48.css",
+    "static/js/main.6a95e3d1.js"
+  ]
+}
