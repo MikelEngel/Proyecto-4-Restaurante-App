@@ -32,7 +32,12 @@ const Validar = (event) => {
 
     return (
         <div className="contenedor-formulario">
+            
             <form onSubmit={Validar} className="formulario-reserva">
+
+            <div className="py-5">
+            <div className="container">
+            <div className="row">
                 <input  
                 placeholder="Tu nombre" 
                 className="form-control mb-3" 
@@ -60,6 +65,11 @@ const Validar = (event) => {
                 <input 
                 className="btn btn-info btn-block mb-3" 
                 type='submit'  />
+
+                </div>
+                </div>
+            </div>
+
             </form>
         </div>
     )

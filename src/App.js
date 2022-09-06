@@ -72,6 +72,12 @@ function App() {
         <Formulario />
       </div>
 
+
+      <div>
+        <Footer
+        />
+      </div>
+
     </div>
 
   );

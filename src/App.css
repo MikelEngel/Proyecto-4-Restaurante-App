@@ -19,7 +19,7 @@ h1 {
 
 .App {
  min-height: 100vh;
- display: flex;
+ display:flexbox;
  flex-wrap: wrap;
  align-items: center;
  justify-content: center;
